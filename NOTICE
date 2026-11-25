@@ -1,0 +1,20 @@
+Malevolent
+Copyright 2026 the DRock authors
+
+This repository holds the training pipeline for Malevolent, DRock's LoRA
+fine-tunes of Qwen3. It is licensed under the Apache License, Version 2.0
+(see LICENSE).
+
+Malevolent models are derivatives of these base models by the Qwen team,
+Alibaba Cloud, released under the Apache License, Version 2.0
+(Copyright 2024 Alibaba Cloud):
+
+  Qwen/Qwen3-0.6B                revision c1899de289a04d12100db370d81485cdf75e47ca
+  Qwen/Qwen3-4B-Instruct-2507    revision cdbee75f17c01a7cc42f958dc650907174af0554
+
+Any released Malevolent adapter or merged model is the base above plus a
+LoRA delta. The base weights are not modified, and weight-similarity tools
+will match a merged model to Qwen3. Each release names its base revision,
+dataset hash and adapter hash in adapter_manifest.json.
+
+No model weights are included in this repository yet.

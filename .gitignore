@@ -1,0 +1,7 @@
+__pycache__/
+.venv*/
+train/data/
+train/data-*/
+train/adapters/
+*.log
+setup-report*.json

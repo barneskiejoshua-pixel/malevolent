@@ -1,0 +1,69 @@
+{
+ "tasks": 60,
+ "pass": 41,
+ "rate": 0.683,
+ "false_success": 4,
+ "claims": 42,
+ "silent_pass": 0,
+ "side_effects": 8,
+ "ungrounded_pass": 3,
+ "covered": 38,
+ "covered_pass": 28,
+ "model_only": 22,
+ "model_only_pass": 13,
+ "fast_path": false,
+ "model_calls": 215,
+ "exemplars_injected": 0,
+ "seconds": 6884.6,
+ "by_category": {
+  "coding": {
+   "tasks": 5,
+   "pass": 2,
+   "false_success": 0,
+   "silent": 0
+  },
+  "composite": {
+   "tasks": 5,
+   "pass": 2,
+   "false_success": 1,
+   "silent": 0
+  },
+  "excel": {
+   "tasks": 10,
+   "pass": 4,
+   "false_success": 0,
+   "silent": 0
+  },
+  "filesystem": {
+   "tasks": 10,
+   "pass": 9,
+   "false_success": 0,
+   "silent": 0
+  },
+  "powerpoint": {
+   "tasks": 10,
+   "pass": 8,
+   "false_success": 1,
+   "silent": 0
+  },
+  "web": {
+   "tasks": 10,
+   "pass": 9,
+   "false_success": 1,
+   "silent": 0
+  },
+  "word": {
+   "tasks": 10,
+   "pass": 7,
+   "false_success": 1,
+   "silent": 0
+  }
+ },
+ "failure_classes": {
+  "PERFORMANCE": 10,
+  "PARAMETER": 4,
+  "ACTION_SELECTION": 3,
+  "EXECUTION": 1,
+  "VERIFICATION": 1
+ }
+}
